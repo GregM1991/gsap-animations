@@ -1,5 +1,5 @@
 <script lang="ts">
-	const grid = [14, 30];
+	const grid = [14, 30]
 </script>
 
 <svg

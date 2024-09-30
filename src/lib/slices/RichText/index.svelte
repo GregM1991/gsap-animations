@@ -1,16 +1,16 @@
 <script lang="ts">
-	import type { Content } from '@prismicio/client';
-	import { PrismicRichText } from '@prismicio/svelte';
-	import Label from './Label.svelte';
+	import type { Content } from '@prismicio/client'
+	import { PrismicRichText } from '@prismicio/svelte'
+	import Label from './Label.svelte'
 
-	export let slice: Content.RichTextSlice;
+	export let slice: Content.RichTextSlice
 </script>
 
 <section>
 	<PrismicRichText
 		field={slice.primary.content}
 		components={{
-			label: Label
+			label: Label,
 		}}
 	/>
 </section>

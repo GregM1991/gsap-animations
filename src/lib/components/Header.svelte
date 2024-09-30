@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { PrismicLink } from '@prismicio/svelte';
-	import type { SettingsDocument } from '../../prismicio-types';
-	import { WordMark, ButtonLink } from '$lib/components';
+	import { PrismicLink } from '@prismicio/svelte'
+	import type { SettingsDocument } from '../../prismicio-types'
+	import { WordMark, ButtonLink } from '$lib/components'
 
-	let { settings }: { settings: SettingsDocument<string> } = $props();
+	let { settings }: { settings: SettingsDocument<string> } = $props()
 </script>
 
 <header>
@@ -21,8 +21,9 @@
 					{#if item.cta_button}
 						<ButtonLink field={item.link}>{item.label}</ButtonLink>
 					{:else}
-						<PrismicLink class="inline-flex min-h-11 items-center" field={item.link}
-							>{item.label}</PrismicLink
+						<PrismicLink
+							class="inline-flex min-h-11 items-center"
+							field={item.link}>{item.label}</PrismicLink
 						>
 					{/if}
 				</li>

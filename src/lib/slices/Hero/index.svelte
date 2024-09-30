@@ -14,7 +14,7 @@
 		<TriangleGrid />
 		{#if slice.primary.heading}
 			<h1
-				class="text-balance max-w-3xl text-5xl font-medium md:text-7xl mx-auto"
+				class="mx-auto max-w-3xl text-balance text-5xl font-medium md:text-7xl"
 			>
 				<PrismicText field={slice.primary.heading} />
 			</h1>
@@ -30,12 +30,12 @@
 			>
 		{/if}
 		{#if slice.primary.image}
-			<div class="mt-16 w-fit glass-container">
+			<div class="glass-container mt-16 w-fit">
 				<div
-					class="absolute left-1/3 mt-16 top-0 -z-10 h-2/3 w-2/3 bg-violet-700/50 mix-blend-screen blur-[120px] filter"
+					class="absolute left-1/3 top-0 -z-10 mt-16 h-2/3 w-2/3 bg-violet-700/50 mix-blend-screen blur-[120px] filter"
 				></div>
 				<div
-					class="absolute left-0 mt-16 top-1/3 -z-10 h-2/3 w-2/3 bg-orange-600/50 mix-blend-screen blur-[120px] filter"
+					class="absolute left-0 top-1/3 -z-10 mt-16 h-2/3 w-2/3 bg-orange-600/50 mix-blend-screen blur-[120px] filter"
 				></div>
 				<PrismicImage class="rounded-lg" field={slice.primary.image} />
 			</div>
