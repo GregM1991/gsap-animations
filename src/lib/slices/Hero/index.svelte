@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Bounded, TriangleGrid } from '$lib/components'
+	import ButtonLink from '$lib/components/ButtonLink.svelte'
 	import type { Content } from '@prismicio/client'
 	import { PrismicImage, PrismicText, PrismicLink } from '@prismicio/svelte'
 
@@ -25,8 +26,8 @@
 			</p>
 		{/if}
 		{#if slice.primary.button_link}
-			<PrismicLink class="mt-8" field={slice.primary.button_link}
-				>{slice.primary.button_label}</PrismicLink
+			<ButtonLink class="mt-8" field={slice.primary.button_link}
+				>{slice.primary.button_label}</ButtonLink
 			>
 		{/if}
 		{#if slice.primary.image}
