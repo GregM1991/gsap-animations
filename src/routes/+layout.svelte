@@ -1,20 +1,20 @@
 <script lang="ts">
-	import '../app.css';
-	import '@fontsource-variable/dm-sans';
-	import { PrismicPreview } from '@prismicio/svelte/kit';
-	import { page } from '$app/stores';
-	import { repositoryName } from '$lib/prismicio';
-	import type { Snippet } from 'svelte';
-	import type { SettingsDocument } from '../prismicio-types';
-	import { Header, Footer } from '$lib/components';
+	import '../app.css'
+	import '@fontsource-variable/dm-sans'
+	import { PrismicPreview } from '@prismicio/svelte/kit'
+	import { page } from '$app/stores'
+	import { repositoryName } from '$lib/prismicio'
+	import type { Snippet } from 'svelte'
+	import type { SettingsDocument } from '../prismicio-types'
+	import { Header, Footer } from '$lib/components'
 
 	let {
 		children,
-		settings
+		settings,
 	}: {
-		children: Snippet;
-		settings: SettingsDocument<string>;
-	} = $props();
+		children: Snippet
+		settings: SettingsDocument<string>
+	} = $props()
 </script>
 
 <svelte:head>

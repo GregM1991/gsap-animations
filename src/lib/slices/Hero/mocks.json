@@ -1,0 +1,71 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Holy Animations Batman!",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "body": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Time to get animating with GSAP YO!",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "button_link": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      "button_label": {
+        "__TYPE__": "FieldContent",
+        "type": "Text",
+        "value": "Let's Goddamn Begin"
+      },
+      "image": {
+        "provider": "imgix",
+        "url": "https://images.unsplash.com/photo-1704960945989-3aef8ee6aa2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzI3NjAwNjMyfDA&ixlib=rb-4.0.3&q=85",
+        "alt": "a couple of lemons sitting on top of a table",
+        "origin": {
+          "id": "RVo8fWNBBvQ",
+          "url": "https://images.unsplash.com/photo-1704960945989-3aef8ee6aa2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzI3NjAwNjMyfDA&ixlib=rb-4.0.3&q=85",
+          "width": 6000,
+          "height": 4000
+        },
+        "width": 6000,
+        "height": 4000,
+        "edit": {
+          "background": "transparent",
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "credits": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      }
+    },
+    "items": []
+  }
+]
