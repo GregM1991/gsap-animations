@@ -16,7 +16,20 @@
 					}
 				]
 			},
-			"study": {
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ex aliquip culpa deserunt et irure nisi quis. Ex aliquip culpa deserunt et irure nisi quis. Ex aliquip culpa deserunt et irure nisi quis. Ex aliquip culpa deserunt et irure nisi quis.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"case_study": {
 				"__TYPE__": "GroupContentType",
 				"value": [
 					{
@@ -33,19 +46,6 @@
 								}
 							]
 						]
-					}
-				]
-			},
-			"body": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Ex aliquip culpa deserunt et irure nisi quis. Ex aliquip culpa deserunt et irure nisi quis. Ex aliquip culpa deserunt et irure nisi quis. Ex aliquip culpa deserunt et irure nisi quis.",
-							"spans": []
-						},
-						"direction": "ltr"
 					}
 				]
 			}

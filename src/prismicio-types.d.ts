@@ -394,15 +394,15 @@ type BentoSliceVariation = BentoSliceDefault
 export type BentoSlice = prismic.SharedSlice<'bento', BentoSliceVariation>
 
 /**
- * Item in *CaseStudies → Default → Primary → Study*
+ * Item in *CaseStudies → Default → Primary → Case Study*
  */
-export interface CaseStudiesSliceDefaultPrimaryStudyItem {
+export interface CaseStudiesSliceDefaultPrimaryCaseStudyItem {
 	/**
-	 * Case Study field in *CaseStudies → Default → Primary → Study*
+	 * Case Study field in *CaseStudies → Default → Primary → Case Study*
 	 *
 	 * - **Field Type**: Content Relationship
 	 * - **Placeholder**: *None*
-	 * - **API ID Path**: case_studies.default.primary.study[].case_study
+	 * - **API ID Path**: case_studies.default.primary.case_study[].case_study
 	 * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
 	 */
 	case_study: prismic.ContentRelationshipField<'case_study'>
@@ -433,14 +433,16 @@ export interface CaseStudiesSliceDefaultPrimary {
 	body: prismic.RichTextField
 
 	/**
-	 * Study field in *CaseStudies → Default → Primary*
+	 * Case Study field in *CaseStudies → Default → Primary*
 	 *
 	 * - **Field Type**: Group
 	 * - **Placeholder**: *None*
-	 * - **API ID Path**: case_studies.default.primary.study[]
+	 * - **API ID Path**: case_studies.default.primary.case_study[]
 	 * - **Documentation**: https://prismic.io/docs/field#group
 	 */
-	study: prismic.GroupField<Simplify<CaseStudiesSliceDefaultPrimaryStudyItem>>
+	case_study: prismic.GroupField<
+		Simplify<CaseStudiesSliceDefaultPrimaryCaseStudyItem>
+	>
 }
 
 /**
@@ -830,7 +832,7 @@ declare module '@prismicio/client' {
 			BentoSliceVariation,
 			BentoSliceDefault,
 			CaseStudiesSlice,
-			CaseStudiesSliceDefaultPrimaryStudyItem,
+			CaseStudiesSliceDefaultPrimaryCaseStudyItem,
 			CaseStudiesSliceDefaultPrimary,
 			CaseStudiesSliceVariation,
 			CaseStudiesSliceDefault,
